@@ -18,7 +18,7 @@ IF OBJECT_ID('tempdb..##searchResults') IS NOT NULL
 CREATE TABLE ##searchResults(
 	tableName	varchar(100)
 	,columnName	varchar(100)
-	,result		datetime		--make sure this data type matches
+	,result		datetime		--make sure this data type matches @searchData data type
 )
 
 --system use
